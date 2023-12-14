@@ -34,7 +34,7 @@ img {
   margin: 0 auto;
 }
 
-/* margins */
+/* article */
 
 .article {
   padding: 60px 0 50px;
@@ -61,10 +61,7 @@ img {
   margin-bottom: 0;
 }
 
-.article__container {
-  background-color: #F1F1F1;
-  border-radius: 10px;
-}
+
 
 /* section description */
 
@@ -72,41 +69,47 @@ img {
   padding: 0 0 25px ;
 }
 
-/* nav */
+/* info */
 
-.nav {
+.info__container {
+  background-color: #F1F1F1;
+  border-radius: 10px;
+  
+}
+
+.info__wrap {
   padding: 25px 15px;
 }
 
-.nav__title {
+.info__title {
   font-size: 44px;
   font-weight: 700;
   line-height: 120%;
   margin-bottom: 20px;
 }
 
-.nav__list {
+.info__list {
   margin: 0;
   padding: 0;
   list-style-position: inside;
   color: #02535F;
 }
 
-.nav__list--theme-black {
+.info__list--theme-black {
   list-style: none;
   color: #000000;
   padding-bottom: 30px;
 }
 
-.nav__item {
+.info__item {
   margin-bottom: 10px;
 }
 
-.nav__item:last-child {
+.info__item:last-child {
   margin-bottom: 0;
 }
 
-.nav__link {
+.info__link {
   color: #02535F;
   font-family: Roboto;
   font-size: 20px;
